@@ -14,17 +14,13 @@ A comprehensive tutorial project demonstrating how to build AI-powered chatbots 
 ## 📁 Project Structure
 
 ```
-langchain_tutorial/
+Deployment LLM As API/
 ├── api/                    # FastAPI backend
 │   ├── app.py             # Main FastAPI application
 │   ├── client.py          # Streamlit client
-│   └── README.md          # This file
-├── chatbot/               # Additional chatbot implementations
-│   ├── app.py
-│   └── localama.py
-├── requirements.txt       # Python dependencies
-├── .gitignore            # Git ignore rules
-└── .env                  # Environment variables (not committed)
+│   ├── README.md          # This file
+│   ├── requirements.txt       # Python dependencies
+|   └── .env               # Environment variables (not committed)
 ```
 
 ## 🛠️ Installation
@@ -33,14 +29,13 @@ langchain_tutorial/
 - Python 3.8+
 - Git
 - Ollama (for local models)
-- GitHub account (for API keys)
+- Groq account (for Groq API keys)
 
 ### Setup Steps
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/<your-username>/api.git
-   cd api
+   git clone https://github.com/<your-username>/Deployment-LLM-As-API.git
    ```
 
 2. **Create virtual environment**:
@@ -73,7 +68,6 @@ langchain_tutorial/
 ### Running the FastAPI Backend
 
 ```bash
-cd api
 python app.py
 ```
 
@@ -125,18 +119,6 @@ print(response.json())
 
 Modify `app.py` to change models or add new ones.
 
-## 🤝 Contributing
-
-1. Fork the repository
-2. Create a feature branch: `git checkout -b feature-name`
-3. Make your changes and commit: `git commit -m 'Add feature'`
-4. Push to the branch: `git push origin feature-name`
-5. Submit a pull request
-
-## 📝 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
 ## 🙏 Acknowledgments
 
 - [LangChain](https://langchain.com) for the LLM framework
@@ -161,5 +143,3 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - Join the [LangChain Discord](https://discord.gg/langchain)
 
 ---
-
-# ME
