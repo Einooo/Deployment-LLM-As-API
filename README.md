@@ -2,6 +2,8 @@
 
 A comprehensive tutorial project demonstrating how to build AI-powered chatbots using LangChain, integrating Groq's fast LLMs and Ollama's local models. This project includes a FastAPI backend for API endpoints and a Streamlit frontend for an interactive UI.
 
+<img width="1919" height="862" alt="image" src="https://github.com/user-attachments/assets/e0d546b3-d157-44cb-b605-000b3f03d61e" />
+
 ## 🚀 Features
 
 - **Dual LLM Integration**: Use Groq for cloud-based, high-speed responses and Ollama for local, privacy-focused models.
