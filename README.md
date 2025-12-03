@@ -15,11 +15,11 @@ A comprehensive tutorial project demonstrating how to build AI-powered chatbots 
 
 ```
 Deployment LLM As API/
-├── api/                    # FastAPI backend
+├── api/                   # FastAPI backend
 │   ├── app.py             # Main FastAPI application
 │   ├── client.py          # Streamlit client
 │   ├── README.md          # This file
-│   ├── requirements.txt       # Python dependencies
+│   ├── requirements.txt   # Python dependencies
 |   └── .env               # Environment variables (not committed)
 ```
 
@@ -142,4 +142,7 @@ Modify `app.py` to change models or add new ones.
 - Open an issue on GitHub
 - Join the [LangChain Discord](https://discord.gg/langchain)
 
+
+### This was application based on YT video 
+- https://youtu.be/XWB5DXP-DO8?si=ybNr5loFzYR5sL7-
 ---
